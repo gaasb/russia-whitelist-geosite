@@ -1,0 +1,32 @@
+# Instagram*
+gateway.instagram.com
+graph.instagram.com
+graph-fallback.instagram.com
+
+# Facebook*
+graph.facebook.com
+graph-fallback.facebook.com
+web.facebook.com
+xz.fbcdn.net
+xy.fbcdn.net
+
+
+# Google
+firebaselogging.googleapis.com
+
+# Яндекс
+adfox.ru
+yandexadexchange.net
+mc.yandex.ru
+amc.yandex.ru
+dr.yandex.net
+dr2.yandex.net
+log.strm.yandex.ru
+
+# VK
+vk-analytics.ru
+
+# Other
+app-measurement.com
+
+# *Принадлежит компании Meta, признанной экстремистской и запрещённой на территории РФ
