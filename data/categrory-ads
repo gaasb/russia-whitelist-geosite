@@ -12,7 +12,14 @@ xy.fbcdn.net
 
 
 # Google
+voilatile-pa.googleapis.com
 firebaselogging.googleapis.com
+userlocation.googleapis.com
+
+# TikTok
+frontier-ru.tiktokv.com
+mon-ru.tiktokv.com
+log16-platform-ycru.tiktokv.com
 
 # Яндекс
 adfox.ru
@@ -22,6 +29,8 @@ amc.yandex.ru
 dr.yandex.net
 dr2.yandex.net
 log.strm.yandex.ru
+appmetrica.yandex.net
+
 
 # VK
 vk-analytics.ru
