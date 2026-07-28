@@ -15,6 +15,9 @@ voilatile-pa.googleapis.com
 firebaselogging.googleapis.com
 userlocation.googleapis.com
 
+# Apple
+xp.apple.com
+
 # TikTok
 frontier-ru.tiktokv.com
 mon-ru.tiktokv.com
@@ -35,5 +38,6 @@ vk-analytics.ru
 
 # Other
 app-measurement.com
+appsflyersdk.com
 
 # *Принадлежит компании Meta, признанной экстремистской и запрещённой на территории РФ
