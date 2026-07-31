@@ -28,4 +28,15 @@ moex.com
 banki.ru
 
 # ЮMoney
-yoomoney.ru
+full:yoomoney.ru
+
+# СберБанк (частично)
+cdn.sberbank.ru
+mpsbol.ant.sberbank.ru
+ddp-mobile.online.sberbank.ru
+
+# Т-Банк (частично)
+cdn-tinkoff.ru
+cdn.t-bank-app.ru
+certs.t-bank-app.ru
+
