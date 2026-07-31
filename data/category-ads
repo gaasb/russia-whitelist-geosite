@@ -14,6 +14,7 @@ xy.fbcdn.net
 voilatile-pa.googleapis.com
 firebaselogging.googleapis.com
 userlocation.googleapis.com
+app-measurement.com
 
 # Apple
 xp.apple.com
@@ -33,14 +34,17 @@ dr2.yandex.net
 log.strm.yandex.ru
 appmetrica.yandex.net
 
+# AppLovin
+applovin.com
+applovin.com
+
 # VK
 vk-analytics.ru
 
-# Российские трекеры
+# AdRiver
 adriver.ru
 
-# Иностранные трекеры
-app-measurement.com
+# AppsFlyer
 appsflyersdk.com
 
 
