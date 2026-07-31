@@ -43,6 +43,12 @@ energo.app
 # Дневник.ру
 dnevnik.ru
 
+# Gismeteo (частично)
+full:gismeteo.ru
+full:www.gismeteo.ru
+gismeteo.st
+# gismeteo.net и его поддомены не в белых списках
+
 # Движение первых
 xn--90acagbhgpca7c8c7f.xn--p1ai # будьвдвижении.рф
 pervye.ru
