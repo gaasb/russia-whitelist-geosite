@@ -10,32 +10,41 @@ web.facebook.com
 xz.fbcdn.net
 xy.fbcdn.net
 
+# WhatsApp*
+graph.whatsapp.com
+
 # Google
-voilatile-pa.googleapis.com
-firebaselogging.googleapis.com
-userlocation.googleapis.com
-app-measurement.com
+
 
 # Apple
 xp.apple.com
 
+# Microsoft
+mobile.pipe.aria.microsoft.com
+
 # TikTok
-frontier-ru.tiktokv.com
-mon-ru.tiktokv.com
-log16-platform-ycru.tiktokv.com
+
+
+# Xiaomi
 
 # Яндекс
 adfox.ru
-yandexadexchange.net
 mc.yandex.ru
 amc.yandex.ru
+log.strm.yandex.ru
 dr.yandex.net
 dr2.yandex.net
-log.strm.yandex.ru
 appmetrica.yandex.net
+startup.mobile.yandex.net
+yandexadexchange.net
 
 # VK
 vk-analytics.ru
+m.mradx.net
+r.mradx.net
+
+# Wildberries
+a.wb.ru
 
 # AdRiver
 adriver.ru
@@ -45,6 +54,7 @@ appsflyersdk.com
 
 # AppLovin
 applovin.com
-applovin.com
+applvn.com
+
 
 # *Принадлежит компании Meta, признанной экстремистской и запрещённой на территории РФ

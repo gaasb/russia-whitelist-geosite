@@ -38,6 +38,8 @@ static.yoomoney.ru
 cdn.sberbank.ru
 mpsbol.ant.sberbank.ru
 ddp-mobile.online.sberbank.ru
+# sberbank.ru и его поддомены не в белых списках
+# sber.ru и его поддомены не в белых списках
 
 # Т-Банк (частично)
 t-static.ru
