@@ -14,18 +14,51 @@ xy.fbcdn.net
 graph.whatsapp.com
 
 # Google
-
+firebaselogging.googleapis.com
+userlocation.googleapis.com
+voilatile-pa.googleapis.com
+locationhistory-pa.googleapis.com
+beacons.gvt2.com
+beacons2.gvt2.com
+beacons3.gvt2.com
+beacons4.gvt2.com
+beacons5.gvt2.com
+mediation.goog
 
 # Apple
 xp.apple.com
 
 # Microsoft
 mobile.pipe.aria.microsoft.com
+mobile.events.data.microsoft.com
 
 # TikTok
+frontier.tiktokv.us
+frontier.tiktokv.com
+frontier-ttp2.tiktokv.us
+frontier-ru.tiktokv.com
+mon-ru.tiktokv.com
+mon16-normal-alisg.tiktokv.com
+api16-access-ttp.tiktokpangle.us
+log16-platform-ycru.tiktokv.com
+log16-normal-useast5.tiktokv.us
+log16-normal-useast8.tiktokv.us
+log22-normal-alisg.tiktokv.com
+tnc0-normal-alisg.tiktokv.com
+tnc16-normal-useast8.tiktokv.us
+mcs-sg.tiktokv.com
 
+# Volcengine (ByteDance)
+gator.volces.com
+apmplus.volces.com
+tab.volces.com
 
 # Xiaomi
+api.ad.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+sdkconfig.ad.rus.xiaomi.com
+ru.resolver.msg.global.xiaomi.net
+findapi.micloud.xiaomi.net
 
 # Яндекс
 adfox.ru
