@@ -3,63 +3,105 @@ gateway.instagram.com
 graph.instagram.com
 graph-fallback.instagram.com
 
+
 # Facebook*
 graph.facebook.com
 graph-fallback.facebook.com
 web.facebook.com
 xz.fbcdn.net
 xy.fbcdn.net
+ep2.facebook.com
+
 
 # WhatsApp*
 graph.whatsapp.com
+
 
 # Google
 app-measurement.com
 app-analytics-services.com
 app-analytics-services-att.com
+
 mediation.goog
-firebaselogging.googleapis.com
+
 userlocation.googleapis.com
-voilatile-pa.googleapis.com
+firebaselogging.googleapis.com
+
+firebaselogging-pa.googleapis.com
+crashlyticsreports-pa.googleapis.com
 locationhistory-pa.googleapis.com
 geller-pa.googleapis.com
+voilatile-pa.googleapis.com
+
+firebase-settings.crashlytics.com
+
 beacons.gvt2.com
 beacons2.gvt2.com
 beacons3.gvt2.com
 beacons4.gvt2.com
 beacons5.gvt2.com
 
+beacons.gvt3.com
+beacons2.gvt3.com
+beacons3.gvt3.com
+beacons4.gvt3.com
+beacons5.gvt3.com
+
+googleads.g.doubleclick.net
+
+
 # Apple
 xp.apple.com
+iadsdk.apple.com
+ca.iadsdk.apple.com
+
 
 # Microsoft
 mobile.pipe.aria.microsoft.com
 mobile.events.data.microsoft.com
+
 
 # TikTok
 frontier.tiktokv.us
 frontier.tiktokv.com
 frontier-ttp2.tiktokv.us
 frontier-ru.tiktokv.com
+
 mon-ru.tiktokv.com
 mon16-normal-alisg.tiktokv.com
+
 api16-access-ttp.tiktokpangle.us
 api16-access-ttp.tiktokpangle-b.us
+
 log16-platform-ycru.tiktokv.com
 log16-normal-useast5.tiktokv.us
 log16-normal-useast8.tiktokv.us
 log22-normal-alisg.tiktokv.com
+
 tnc-boot.tiktokv.com
 tnc0-normal-alisg.tiktokv.com
 tnc16-normal-ycru.tiktokv.com
 tnc16-normal-useast8.tiktokv.us
 tnc19-normal-useast5.tiktokv.us
+
 mcs-sg.tiktokv.com
+
+
+# CapCut (ByteDance)
+mon-v2-boot.capcutapi.com
+tnc-v2-boot.capcutapi.com
+tnc-sg.capcutapi.com
+
+
+# Pangle (ByteDance)
+pangle.io
+
 
 # Volcengine (ByteDance)
 gator.volces.com
 apmplus.volces.com
 tab.volces.com
+
 
 # Xiaomi
 tracking.intl.miui.com
@@ -67,8 +109,13 @@ tracking.rus.miui.com
 api.ad.intl.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
-ru.resolver.msg.global.xiaomi.net
-findapi.micloud.xiaomi.net
+api.sec.intl.miui.com
+cdn-exp-sg-recommend.pt.xiaomi.com
+
+
+# Oppo / Realme / OnePlus
+cota-service-sg.allawnos.com
+
 
 # Яндекс
 adfox.ru
@@ -81,30 +128,41 @@ appmetrica.yandex.net
 startup.mobile.yandex.net
 yandexadexchange.net
 
-# VK
+
+# VK / Mail.ru
 vk-analytics.ru
 stats.rustore.ru
 m.mradx.net
 r.mradx.net
 
+
 # Wildberries
 a.wb.ru
+
 
 # Авито
 stats.avito.ru
 
+
 # X5
 ads.x5media.ru
+
 
 # AdRiver
 adriver.ru
 
+
 # AppsFlyer
 appsflyersdk.com
+
 
 # AppLovin
 applovin.com
 applvn.com
+
+
+# AppTracer
+apptracer.ru
 
 
 # *Принадлежит компании Meta, признанной экстремистской и запрещённой на территории РФ
