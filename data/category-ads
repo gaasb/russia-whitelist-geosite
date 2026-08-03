@@ -18,6 +18,7 @@ firebaselogging.googleapis.com
 userlocation.googleapis.com
 voilatile-pa.googleapis.com
 locationhistory-pa.googleapis.com
+geller-pa.googleapis.com
 beacons.gvt2.com
 beacons2.gvt2.com
 beacons3.gvt2.com
@@ -40,12 +41,15 @@ frontier-ru.tiktokv.com
 mon-ru.tiktokv.com
 mon16-normal-alisg.tiktokv.com
 api16-access-ttp.tiktokpangle.us
+api16-access-ttp.tiktokpangle-b.us
 log16-platform-ycru.tiktokv.com
 log16-normal-useast5.tiktokv.us
 log16-normal-useast8.tiktokv.us
 log22-normal-alisg.tiktokv.com
+tnc-boot.tiktokv.com
 tnc0-normal-alisg.tiktokv.com
 tnc16-normal-useast8.tiktokv.us
+tnc19-normal-useast5.tiktokv.us
 mcs-sg.tiktokv.com
 
 # Volcengine (ByteDance)
@@ -54,6 +58,8 @@ apmplus.volces.com
 tab.volces.com
 
 # Xiaomi
+tracking.intl.miui.com
+tracking.rus.miui.com
 api.ad.intl.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
@@ -73,11 +79,18 @@ yandexadexchange.net
 
 # VK
 vk-analytics.ru
+stats.rustore.ru
 m.mradx.net
 r.mradx.net
 
 # Wildberries
 a.wb.ru
+
+# Авито
+stats.avito.ru
+
+# X5
+ads.x5media.ru
 
 # AdRiver
 adriver.ru
