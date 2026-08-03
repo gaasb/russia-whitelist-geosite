@@ -66,6 +66,10 @@ mobile.pipe.aria.microsoft.com
 mobile.events.data.microsoft.com
 
 
+# Github
+collector.github.com
+
+
 # TikTok (ByteDance)
 frontier.tiktokv.us
 frontier.tiktokv.com
