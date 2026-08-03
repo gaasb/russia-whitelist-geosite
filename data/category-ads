@@ -90,6 +90,8 @@ tnc19-normal-useast5.tiktokv.us
 
 mcs-sg.tiktokv.com
 
+mssdk-ru.tiktokv.com
+
 
 # CapCut (ByteDance)
 mon-v2-boot.capcutapi.com
@@ -135,6 +137,7 @@ yandexadexchange.net
 
 # VK / Mail.ru
 vk-analytics.ru
+stats.vk-portal.net
 stats.rustore.ru
 m.mradx.net
 r.mradx.net
