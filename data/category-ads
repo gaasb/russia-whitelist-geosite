@@ -27,6 +27,7 @@ mediation.goog
 userlocation.googleapis.com
 firebaselogging.googleapis.com
 
+growth-pa.googleapis.com
 firebaselogging-pa.googleapis.com
 crashlyticsreports-pa.googleapis.com
 locationhistory-pa.googleapis.com
@@ -134,6 +135,7 @@ vk-analytics.ru
 stats.rustore.ru
 m.mradx.net
 r.mradx.net
+trace-flow.ru
 
 
 # Wildberries
