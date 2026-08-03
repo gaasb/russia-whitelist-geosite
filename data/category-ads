@@ -33,8 +33,11 @@ crashlyticsreports-pa.googleapis.com
 locationhistory-pa.googleapis.com
 geller-pa.googleapis.com
 voilatile-pa.googleapis.com
+appsgrowthpromo-pa.googleapis.com
 
 firebase-settings.crashlytics.com
+
+pagead2.googlesyndication.com
 
 beacons.gvt2.com
 beacons2.gvt2.com
@@ -62,7 +65,7 @@ mobile.pipe.aria.microsoft.com
 mobile.events.data.microsoft.com
 
 
-# TikTok
+# TikTok (ByteDance)
 frontier.tiktokv.us
 frontier.tiktokv.com
 frontier-ttp2.tiktokv.us
