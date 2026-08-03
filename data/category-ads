@@ -120,10 +120,14 @@ tab.volces.com
 # Xiaomi
 tracking.intl.miui.com
 tracking.rus.miui.com
+
+api.sec.intl.miui.com
+
 api.ad.intl.xiaomi.com
+
 sdkconfig.ad.intl.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
-api.sec.intl.miui.com
+
 cdn-exp-sg-recommend.pt.xiaomi.com
 
 
