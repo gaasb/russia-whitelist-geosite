@@ -14,6 +14,8 @@ xy.fbcdn.net
 graph.whatsapp.com
 
 # Google
+app-measurement.com
+mediation.goog
 firebaselogging.googleapis.com
 userlocation.googleapis.com
 voilatile-pa.googleapis.com
@@ -24,7 +26,6 @@ beacons2.gvt2.com
 beacons3.gvt2.com
 beacons4.gvt2.com
 beacons5.gvt2.com
-mediation.goog
 
 # Apple
 xp.apple.com
@@ -48,6 +49,7 @@ log16-normal-useast8.tiktokv.us
 log22-normal-alisg.tiktokv.com
 tnc-boot.tiktokv.com
 tnc0-normal-alisg.tiktokv.com
+tnc16-normal-ycru.tiktokv.com
 tnc16-normal-useast8.tiktokv.us
 tnc19-normal-useast5.tiktokv.us
 mcs-sg.tiktokv.com
