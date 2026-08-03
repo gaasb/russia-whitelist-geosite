@@ -95,8 +95,11 @@ mssdk-ru.tiktokv.com
 
 # CapCut (ByteDance)
 mon-v2-boot.capcutapi.com
-tnc-v2-boot.capcutapi.com
+
 tnc-sg.capcutapi.com
+tnc-v2-boot.capcutapi.com
+
+log32-normal-sg.capcutapi.com
 
 
 # Pangle (ByteDance)
@@ -123,6 +126,10 @@ cdn-exp-sg-recommend.pt.xiaomi.com
 cota-service-sg.allawnos.com
 
 
+# BIGO
+kzhi.tech
+
+
 # Яндекс
 adfox.ru
 mc.yandex.ru
@@ -141,9 +148,14 @@ stats.vk-portal.net
 stats.rustore.ru
 m.mradx.net
 r.mradx.net
+r0.mradx.net
 ad.mail.ru
 alt-ad.mail.ru
 trace-flow.ru
+
+
+# LiveInternet
+yadro.ru
 
 
 # Wildberries
