@@ -76,6 +76,8 @@ frontier.tiktokv.com
 frontier-ttp2.tiktokv.us
 frontier-ru.tiktokv.com
 
+mon.tiktokv.com
+mon-sg.tiktokv.com
 mon-ru.tiktokv.com
 mon16-normal-alisg.tiktokv.com
 
@@ -130,6 +132,9 @@ sdkconfig.ad.rus.xiaomi.com
 
 cdn-exp-sg-recommend.pt.xiaomi.com
 
+findapi.micloud.xiaomi.net
+find.api.micloud.xiaomi.net
+
 
 # Oppo / Realme / OnePlus
 cota-service-sg.allawnos.com
@@ -148,19 +153,27 @@ dr.yandex.net
 dr2.yandex.net
 appmetrica.yandex.net
 startup.mobile.yandex.net
+startup-mobile.ap.yandex-net.ru
 yandexadexchange.net
 
 
 # VK
+ads.vk.com
 vk-analytics.ru
 stats.vk-portal.net
+ms.vk.ru
 stats.rustore.ru
+trace-flow.ru
 m.mradx.net
 r.mradx.net
 r0.mradx.net
 ad.mail.ru
 alt-ad.mail.ru
-trace-flow.ru
+xray.mail.ru
+
+
+# Mediascope
+tns-counter.ru
 
 
 # LiveInternet
