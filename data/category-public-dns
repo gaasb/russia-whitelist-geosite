@@ -1,0 +1,17 @@
+# Google
+dns.google
+dns.google.com
+google-public-dns-a.google.com
+google-public-dns-b.google.com
+
+# Cloudflare
+cloudflare-dns.com
+dns.cloudflare.com
+one.one.one.one
+
+# Apple
+dns.apple.com
+dns.apple.com.v.aaplimg.com
+mask.icloud.com
+mask-h2.icloud.com
+mask-canary.icloud.com

@@ -52,7 +52,6 @@ collector.github.com
 
 
 # TikTok (ByteDance)
-
 mon.tiktokv.com
 mon-sg.tiktokv.com
 mon-ru.tiktokv.com
@@ -69,7 +68,6 @@ tnc-boot.tiktokv.com
 tnc0-normal-alisg.tiktokv.com
 tnc16-normal-useast8.tiktokv.us
 tnc19-normal-useast5.tiktokv.us
-
 
 mssdk-ru.tiktokv.com
 
@@ -96,7 +94,6 @@ tab.volces.com
 # Xiaomi
 tracking.intl.miui.com
 tracking.rus.miui.com
-
 
 api.ad.intl.xiaomi.com
 
