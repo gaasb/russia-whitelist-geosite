@@ -1,21 +1,6 @@
-# Instagram*
-gateway.instagram.com
-graph.instagram.com
-graph-fallback.instagram.com
-
-
 # Facebook*
-graph.facebook.com
-graph-fallback.facebook.com
-web.facebook.com
-connect.facebook.net
-ep2.facebook.com
 xz.fbcdn.net
 xy.fbcdn.net
-
-
-# WhatsApp*
-graph.whatsapp.com
 
 
 # Google
@@ -24,20 +9,16 @@ app-analytics-services.com
 app-analytics-services-att.com
 
 google-analytics.com
-googletagmanager.com
 
 mediation.goog
 
-userlocation.googleapis.com
 firebaselogging.googleapis.com
 
 growth-pa.googleapis.com
 firebaselogging-pa.googleapis.com
 crashlyticsreports-pa.googleapis.com
-locationhistory-pa.googleapis.com
-geller-pa.googleapis.com
-voilatile-pa.googleapis.com
 appsgrowthpromo-pa.googleapis.com
+federatedcompute-pa.googleapis.com
 
 firebase-settings.crashlytics.com
 
@@ -59,14 +40,11 @@ googleads.g.doubleclick.net
 
 
 # Apple
-xp.apple.com
 iadsdk.apple.com
-ca.iadsdk.apple.com
 
 
 # Microsoft
 mobile.pipe.aria.microsoft.com
-mobile.events.data.microsoft.com
 
 
 # GitHub
@@ -74,32 +52,24 @@ collector.github.com
 
 
 # TikTok (ByteDance)
-frontier.tiktokv.us
-frontier.tiktokv.com
-frontier-ttp2.tiktokv.us
-frontier-ru.tiktokv.com
 
 mon.tiktokv.com
 mon-sg.tiktokv.com
 mon-ru.tiktokv.com
 mon-boot.tiktokv.com
-mon16-normal-alisg.tiktokv.com
 
 api16-access-ttp.tiktokpangle.us
 api16-access-ttp.tiktokpangle-b.us
+api16-access-ttp-b.tiktokpangle.us
 
 log16-platform-ycru.tiktokv.com
-log16-normal-useast5.tiktokv.us
-log16-normal-useast8.tiktokv.us
 log22-normal-alisg.tiktokv.com
 
 tnc-boot.tiktokv.com
 tnc0-normal-alisg.tiktokv.com
-tnc16-normal-ycru.tiktokv.com
 tnc16-normal-useast8.tiktokv.us
 tnc19-normal-useast5.tiktokv.us
 
-mcs-sg.tiktokv.com
 
 mssdk-ru.tiktokv.com
 
@@ -127,7 +97,6 @@ tab.volces.com
 tracking.intl.miui.com
 tracking.rus.miui.com
 
-api.sec.intl.miui.com
 
 api.ad.intl.xiaomi.com
 
@@ -137,39 +106,29 @@ sdkconfig.ad.rus.xiaomi.com
 cdn-exp-sg-recommend.pt.xiaomi.com
 
 findapi.micloud.xiaomi.net
-find.api.micloud.xiaomi.net
 
 
 # Oppo / Realme / OnePlus
 cota-service-sg.allawnos.com
 
 
-# BIGO
-kzhi.tech
-
-
 # Яндекс
-adfox.ru
 mc.yandex.ru
 amc.yandex.ru
 log.strm.yandex.ru
-dr.yandex.net
-dr2.yandex.net
 appmetrica.yandex.net
 startup.mobile.yandex.net
 startup-mobile.ap.yandex-net.ru
 yandexadexchange.net
 
 
-# VK
+# VK / Mail.ru
 ads.vk.com
 vk-analytics.ru
 stats.vk-portal.net
 ms.vk.ru
 stats.rustore.ru
 trace-flow.ru
-m.mradx.net
-r.mradx.net
 r0.mradx.net
 ad.mail.ru
 alt-ad.mail.ru
