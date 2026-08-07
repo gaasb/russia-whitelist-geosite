@@ -69,9 +69,6 @@ megamarket.ru
 # Петрович
 petrovich.ru
 
-# СДЭК
-cdek.ru
-
 # Детский мир
 detmir.ru
 
@@ -80,6 +77,7 @@ vkusnoitochka.ru
 
 # Бургер Кинг
 burgerking.ru
+burgerkingrus.ru
 
 # Rostic's
 rostics.ru
@@ -90,6 +88,11 @@ auto.ru
 # Lamoda
 lamoda.ru
 lmcdn.ru
+
+# Лэтуаль (частично)
+full:letu.ru
+full:www.letu.ru
+full:i.letu.ru
 
 # Циан (частично)
 images.cdn-cian.ru
