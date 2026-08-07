@@ -8,16 +8,12 @@ on:
       - ".github/workflows/build.yaml"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
-concurrency:
-  group: build
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    concurrency:
+      group: build-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
 
@@ -26,21 +22,65 @@ jobs:
           go-version: stable
 
       - name: Install domain-list-community
-        run: go install github.com/v2fly/domain-list-community@latest
+        run: go install github.com/v2fly/domain-list-community@20260807044359
 
       - name: Build geosite.dat
         run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output
 
+      - name: Sanity check
+        working-directory: output
+        run: |
+          test -s geosite.dat
+          test "$(stat -c %s geosite.dat)" -ge 5000
+
       - name: Checksum
         working-directory: output
-        run: sha256sum geosite.dat | tee geosite.dat.sha256sum
+        run: |
+          sha256sum geosite.dat | tee geosite.dat.sha256sum
+          sha256sum geosite.dat | cut -d' ' -f1 > geosite.dat.sha256
 
-      - name: Publish release
-        uses: softprops/action-gh-release@v2
+      - uses: actions/upload-artifact@v4
         with:
-          tag_name: "${{ github.run_number }}"
-          name: "${{ github.run_number }}"
-          make_latest: true
+          name: geosite
+          path: output/
+          retention-days: 1
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: publish
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ github.run_number }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: geosite
+          path: output
+
+      - name: Create draft release
+        uses: softprops/action-gh-release@v3.0.2
+        with:
+          tag_name: ${{ github.run_number }}
+          name: ${{ github.run_number }}
+          draft: true
           files: |
             output/geosite.dat
+            output/geosite.dat.sha256
             output/geosite.dat.sha256sum
+
+      - name: Verify assets
+        run: |
+          names=$(gh release view "$TAG" --json assets --jq '.assets[].name')
+          for f in geosite.dat geosite.dat.sha256 geosite.dat.sha256sum; do
+            echo "$names" | grep -qx "$f" || { echo "missing asset: $f" >&2; exit 1; }
+          done
+
+      - name: Publish release
+        run: gh release edit "$TAG" --draft=false --latest
