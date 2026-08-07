@@ -21,24 +21,6 @@ psbank.ru
 # Газпромбанк
 gazprombank.ru
 
-# ОТП Банк
-otpbank.ru
-
-# Модульбанк
-modulbank.ru
-
-# Московская биржа
-moex.com
-
-# Банки.ру
-banki.ru
-
-# Кредистория
-credistory.ru
-
-# ЮMoney (частично)
-full:yoomoney.ru
-static.yoomoney.ru
 
 # СберБанк (частично)
 cdn.sberbank.ru
@@ -53,6 +35,26 @@ cdn-tinkoff.ru
 cdn.t-bank-app.ru
 acdn.t-bank-app.ru
 certs.t-bank-app.ru
+cdn-webview.t-bank-app.ru
 certs.t-bank-app.su
 # tbank.ru и его поддомены не в белых списках
 # t-bank-app.ru и его поддомены не в белых списках
+
+# ОТП Банк
+otpbank.ru
+
+# Модульбанк
+modulbank.ru
+
+# ЮMoney (частично)
+full:yoomoney.ru
+static.yoomoney.ru
+
+# Московская биржа
+moex.com
+
+# Банки.ру
+banki.ru
+
+# Кредистория
+credistory.ru
