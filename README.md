@@ -2,7 +2,13 @@
 
 Основной проект: https://github.com/vahellame/russia-whitelist-routing
 
-Домены находящихся в белых списках РФ, для роутинга Xray/V2Ray
+## Что это
+
+Домены находящихся в белых списках РФ. Собираются в `geosite.dat` для Xray и в rule-set форматов `.srs`, `.mrs` и `.list` для sing-box, mihomo и Shadowrocket
+
+К каждому релизу прикладывается `geosite.dat.sha256` — только хеш, 64 символа без имени файла. По нему INCY понимает, что файл не менялся, и не качает его заново. Подробнее [тут](https://docs.incy.cc/routing/#геофайлы-оптимизированное-скачивание). Рядом `geosite.dat.sha256sum` в стандартном формате GNU coreutils
+
+## Категории
 
 Домены сгруппированы по сервисам и категориям в `data/`; `whitelist` объединяет все списки кроме `category-ads` и `category-public-dns`
 
@@ -14,39 +20,11 @@
 
 Заявлены Минцифры, но в белых списках отсутствуют:
 
-- `lizaalert.org`, `lizaalert.ru` — ЛизаАлерт
-- `soloviev.live` — Соловьёв Live
-- `ruwiki.ru` — Рувики
+- ЛизаАлерт — `lizaalert.org`, `lizaalert.ru`
+- Соловьёв Live — `soloviev.live`
+- Рувики — `ruwiki.ru`
 
 Также не в белых списках:
 
 - `edgecdn.ru` — не у всех операторов
 - `yandex.kz`, `yandex.kg`
-
-## Скачать
-
-```text
-https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite.dat
-```
-
-## Rule-set
-
-Те же данные для sing-box, mihomo и Shadowrocket в форматах `.srs`, `.mrs` и `.list`
-
-```text
-https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite-whitelist.srs
-```
-
-Наборы: `geosite-whitelist`, `geosite-category-ads`, `geosite-category-public-dns`
-
-## Контрольные суммы
-
-К каждому релизу прикладываются две контрольные суммы в разных форматах.
-
-`geosite.dat.sha256` содержит только сам хеш — 64 символа, без имени файла и без перевода строки. Такой формат ожидает INCY: он запрашивает его при обновлении подписки и, если хеш совпадает с уже сохранённым, пропускает скачивание `geosite.dat`. Подробнее [тут](https://docs.incy.cc/routing/#геофайлы-оптимизированное-скачивание)
-
-`geosite.dat.sha256sum` — стандартный формат GNU coreutils, для проверки вручную:
-
-```sh
-sha256sum -c geosite.dat.sha256sum
-```

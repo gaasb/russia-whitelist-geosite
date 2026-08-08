@@ -2,7 +2,13 @@
 
 Main project: https://github.com/vahellame/russia-whitelist-routing
 
-Domains of services that are on Russian mobile internet whitelists, for Xray/V2Ray routing
+## What this is
+
+Domains of services that are on Russian mobile internet whitelists. Compiled into a `geosite.dat` for Xray and into `.srs`, `.mrs` and `.list` rule sets for sing-box, mihomo and Shadowrocket
+
+Every release ships a `geosite.dat.sha256` — the bare hash, 64 characters with no filename. INCY uses it to tell the file has not changed and skips re-downloading it. More on it [here](https://docs.incy.cc/en/routing/#geo-files-optimized-downloading). Alongside it, `geosite.dat.sha256sum` in the standard GNU coreutils format
+
+## Categories
 
 Domains are grouped by service and category in `data/`; `whitelist` combines every list except `category-ads` and `category-public-dns`
 
@@ -14,39 +20,11 @@ Domains are grouped by service and category in `data/`; `whitelist` combines eve
 
 Announced by Mintsifry, yet absent from the whitelists:
 
-- `lizaalert.org`, `lizaalert.ru` — LizaAlert
-- `soloviev.live` — Solovyov Live
-- `ruwiki.ru` — Ruwiki
+- LizaAlert — `lizaalert.org`, `lizaalert.ru`
+- Solovyov Live — `soloviev.live`
+- Ruwiki — `ruwiki.ru`
 
 Also not on the whitelists:
 
 - `edgecdn.ru` — not with every carrier
 - `yandex.kz`, `yandex.kg`
-
-## Download
-
-```text
-https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite.dat
-```
-
-## Rule sets
-
-The same data for sing-box, mihomo and Shadowrocket in `.srs`, `.mrs` and `.list` formats
-
-```text
-https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite-whitelist.srs
-```
-
-Sets: `geosite-whitelist`, `geosite-category-ads`, `geosite-category-public-dns`
-
-## Checksums
-
-Every release ships two checksums in different formats.
-
-`geosite.dat.sha256` holds the bare hash — 64 characters, no filename, no trailing newline. This is the format INCY expects: it fetches the file on subscription update and skips downloading `geosite.dat` when the hash matches the one it already has. More on it [here](https://docs.incy.cc/en/routing/#geo-files-optimized-downloading)
-
-`geosite.dat.sha256sum` is the standard GNU coreutils format, for manual verification:
-
-```sh
-sha256sum -c geosite.dat.sha256sum
-```
