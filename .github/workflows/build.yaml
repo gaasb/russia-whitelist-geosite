@@ -45,7 +45,7 @@ jobs:
           mihomo -v
 
       - name: Build geosite.dat
-        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output -exportlists whitelist,category-ads,category-public-dns
+        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output -exportlists category-ads,category-finance,category-gov,category-media,category-medicine,category-public-dns,category-shopping,category-telecom,category-transport,category-video,other,ozon,vk,whitelist,wildberries,x5,yandex
 
       - name: Sanity check
         working-directory: output
@@ -67,7 +67,7 @@ jobs:
             mihomo convert-ruleset domain text "$src" "${src%.mrs.txt}.mrs"
           done
           rm -f *.srs.json *.mrs.txt
-          rm -f whitelist.txt category-ads.txt category-public-dns.txt
+          rm -f *.txt
 
       - name: Checksum
         working-directory: output

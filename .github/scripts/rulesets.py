@@ -4,9 +4,23 @@ import pathlib
 import sys
 
 CATEGORIES = [
-    "whitelist",
     "category-ads",
+    "category-finance",
+    "category-gov",
+    "category-media",
+    "category-medicine",
     "category-public-dns",
+    "category-shopping",
+    "category-telecom",
+    "category-transport",
+    "category-video",
+    "other",
+    "ozon",
+    "vk",
+    "whitelist",
+    "wildberries",
+    "x5",
+    "yandex",
 ]
 
 

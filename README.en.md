@@ -4,7 +4,7 @@ Main project: https://github.com/vahellame/russia-whitelist-routing
 
 ## What this is
 
-Domains of services that are on Russian mobile internet whitelists. Compiled into a `geosite.dat` for Xray and into `.srs`, `.mrs` and `.list` rule sets for sing-box, mihomo and Shadowrocket
+Domains of services that are on Russian mobile internet whitelists. Compiled into a `geosite.dat` for Xray and into `.srs`, `.mrs` and `.list` rule sets for sing-box, mihomo and Shadowrocket, one set per category
 
 Every release ships a `geosite.dat.sha256` — the bare hash, 64 characters with no filename. INCY uses it to tell the file has not changed and skips re-downloading it. More on it [here](https://docs.incy.cc/en/routing/#geo-files-optimized-downloading). Alongside it, `geosite.dat.sha256sum` in the standard GNU coreutils format
 
