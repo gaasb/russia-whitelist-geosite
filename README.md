@@ -1,6 +1,6 @@
 [English](README.en.md)
 
-Подробнее: https://github.com/vahellame/russia-whitelist-routing
+Основной проект: https://github.com/vahellame/russia-whitelist-routing
 
 Домены находящихся в белых списках РФ, для роутинга Xray/V2Ray
 

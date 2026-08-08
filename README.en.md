@@ -1,6 +1,6 @@
 [Русский](README.md)
 
-More: https://github.com/vahellame/russia-whitelist-routing
+Main project: https://github.com/vahellame/russia-whitelist-routing
 
 Domains of services that are on Russian mobile internet whitelists, for Xray/V2Ray routing
 
