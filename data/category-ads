@@ -2,13 +2,17 @@
 graph.instagram.com
 graph-fallback.instagram.com
 
+
 # Facebook*
 xz.fbcdn.net
 xy.fbcdn.net
 
+
 # WhatsApp*
 graph.whatsapp.com
 graph.whatsapp.net
+dit.whatsapp.net
+
 
 # Google
 app-measurement.com
