@@ -29,6 +29,16 @@
 https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite.dat
 ```
 
+## Rule-set
+
+Те же данные для sing-box, mihomo и Shadowrocket в форматах `.srs`, `.mrs` и `.list`
+
+```text
+https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite-whitelist.srs
+```
+
+Наборы: `geosite-whitelist`, `geosite-category-ads`, `geosite-category-public-dns`
+
 ## Контрольные суммы
 
 К каждому релизу прикладываются две контрольные суммы в разных форматах.

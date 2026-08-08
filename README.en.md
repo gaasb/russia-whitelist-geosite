@@ -29,6 +29,16 @@ Also not on the whitelists:
 https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite.dat
 ```
 
+## Rule sets
+
+The same data for sing-box, mihomo and Shadowrocket in `.srs`, `.mrs` and `.list` formats
+
+```text
+https://github.com/vahellame/russia-whitelist-geosite/releases/latest/download/geosite-whitelist.srs
+```
+
+Sets: `geosite-whitelist`, `geosite-category-ads`, `geosite-category-public-dns`
+
 ## Checksums
 
 Every release ships two checksums in different formats.

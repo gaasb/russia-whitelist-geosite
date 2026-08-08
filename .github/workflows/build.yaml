@@ -5,8 +5,13 @@ on:
     branches: [main]
     paths:
       - "data/**"
+      - ".github/scripts/**"
       - ".github/workflows/build.yaml"
   workflow_dispatch:
+
+env:
+  SINGBOX_VERSION: 1.13.16
+  MIHOMO_VERSION: v1.19.29
 
 jobs:
   build:
@@ -24,14 +29,45 @@ jobs:
       - name: Install domain-list-community
         run: go install github.com/v2fly/domain-list-community@20260807044359
 
+      - name: Install sing-box
+        run: |
+          url="https://github.com/SagerNet/sing-box/releases/download/v${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION}-linux-amd64.tar.gz"
+          curl -fsSL --retry 3 "$url" -o sing-box.tar.gz
+          tar xzf sing-box.tar.gz --strip-components=1 -C /usr/local/bin "sing-box-${SINGBOX_VERSION}-linux-amd64/sing-box"
+          sing-box version
+
+      - name: Install mihomo
+        run: |
+          url="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          curl -fsSL --retry 3 "$url" -o mihomo.gz
+          gunzip -c mihomo.gz > /usr/local/bin/mihomo
+          chmod +x /usr/local/bin/mihomo
+          mihomo -v
+
       - name: Build geosite.dat
-        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output
+        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output -exportlists whitelist,category-ads,category-public-dns
 
       - name: Sanity check
         working-directory: output
         run: |
           test -s geosite.dat
           test "$(stat -c %s geosite.dat)" -ge 5000
+
+      - name: Generate rule sets
+        run: python3 .github/scripts/rulesets.py output output
+
+      - name: Compile rule sets
+        working-directory: output
+        run: |
+          set -euo pipefail
+          for src in *.srs.json; do
+            sing-box rule-set compile --output "${src%.srs.json}.srs" "$src"
+          done
+          for src in *.mrs.txt; do
+            mihomo convert-ruleset domain text "$src" "${src%.mrs.txt}.mrs"
+          done
+          rm -f *.srs.json *.mrs.txt
+          rm -f whitelist.txt category-ads.txt category-public-dns.txt
 
       - name: Checksum
         working-directory: output
@@ -70,16 +106,15 @@ jobs:
           tag_name: ${{ github.run_number }}
           name: ${{ github.run_number }}
           draft: true
-          files: |
-            output/geosite.dat
-            output/geosite.dat.sha256
-            output/geosite.dat.sha256sum
+          files: output/*
 
       - name: Verify assets
         run: |
+          set -euo pipefail
           names=$(gh release view "$TAG" --json assets --jq '.assets[].name')
-          for f in geosite.dat geosite.dat.sha256 geosite.dat.sha256sum; do
-            echo "$names" | grep -qx "$f" || { echo "missing asset: $f" >&2; exit 1; }
+          for f in output/*; do
+            base=$(basename "$f")
+            echo "$names" | grep -qx "$base" || { echo "missing asset: $base" >&2; exit 1; }
           done
 
       - name: Publish release
