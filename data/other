@@ -18,6 +18,7 @@ kazanexpress.ru
 mm.ru
 
 # Boxberry
+boxberry.ru
 
 # Добро.рф
 dobro.ru
@@ -76,10 +77,11 @@ foxford.ru
 # Суточно.ру
 sutochno.ru
 
+# Timeweb (частично)
+full:timeweb.cloud
+
+
 # CDNvideo
 trbcdn.net
 selcdn.net
 twcstorage.ru
-
-# Timeweb (частично)
-full:timeweb.cloud
