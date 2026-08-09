@@ -10,7 +10,7 @@
 
 ## Категории
 
-Домены сгруппированы по сервисам и категориям в `data/`; `whitelist` объединяет все списки кроме `category-ads` и `category-public-dns`
+Домены сгруппированы по сервисам и категориям в `data/`; `whitelist` объединяет все списки кроме `category-ads`, `category-public-dns` и `private`
 
 `category-ads` включает в себя сгруппированные по провайдеру рекламу и трекеры. Взяты популярные из [AdGuard DNS filter](https://github.com/AdguardTeam/AdGuardSDNSFilter), [HaGeZi Pro](https://github.com/hagezi/dns-blocklists#pro), [OISD Big](https://oisd.nl/), [Loyalsoldier](https://github.com/Loyalsoldier/v2ray-rules-dat)
 

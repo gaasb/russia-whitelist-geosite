@@ -17,10 +17,10 @@ CATEGORIES = [
     "other",
     "ozon",
     "vk",
-    "whitelist",
     "wildberries",
     "x5",
     "yandex",
+    "private",
 ]
 
 

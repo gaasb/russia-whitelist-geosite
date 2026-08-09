@@ -10,7 +10,7 @@ Each release ships two checksums: `geosite.dat.sha256` with the bare 64-characte
 
 ## Categories
 
-Domains are grouped by service and category in `data/`; `whitelist` combines every list except `category-ads` and `category-public-dns`
+Domains are grouped by service and category in `data/`; `whitelist` combines every list except `category-ads`, `category-public-dns` and `private`
 
 `category-ads` contains ads and trackers grouped by provider. Common ones taken from [AdGuard DNS filter](https://github.com/AdguardTeam/AdGuardSDNSFilter), [HaGeZi Pro](https://github.com/hagezi/dns-blocklists#pro), [OISD Big](https://oisd.nl/), [Loyalsoldier](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
