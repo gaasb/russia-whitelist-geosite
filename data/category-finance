@@ -22,21 +22,11 @@ psbank.ru
 gazprombank.ru
 
 
-# СберБанк (частично)
-cdn.sberbank.ru
-mpsbol.ant.sberbank.ru
-ddp-mobile.online.sberbank.ru
-# sberbank.ru и его поддомены не в белых списках
-# sber.ru и его поддомены не в белых списках
-
 # Т-Банк (частично)
-t-static.ru
-cdn-tinkoff.ru
-cdn.t-bank-app.ru
+sso-forms-prod.t-static.ru
+fingerprint.t-static.ru
+mf-platform-production.t-static.ru
 acdn.t-bank-app.ru
-certs.t-bank-app.ru
-cdn-webview.t-bank-app.ru
-certs.t-bank-app.su
 # tbank.ru и его поддомены не в белых списках
 # t-bank-app.ru и его поддомены не в белых списках
 
