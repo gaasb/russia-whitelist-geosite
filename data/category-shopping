@@ -71,20 +71,24 @@ full:dostavista.ru
 full:dodopizza.ru
 
 full:dodopizza.com
-globalapi.dodopizza.com
+full:globalapi.dodopizza.com
 
-cdn.dodostatic.net
-media.dodostatic.net
+full:cdn.dodostatic.net
+full:media.dodostatic.net
 
-frontlogger.dodois.io
-mapi.dodois.io
-esapi.dodois.io
+full:frontlogger.dodois.io
+full:mapi.dodois.io
+full:esapi.dodois.io
 
-dodopizza.threads.im
+full:dodopizza.threads.im
 
 
 # Самокат
 full:samokat.ru
+full:health.samokat.ru
+full:sting.samokat.ru
+full:error-tracking.samokat.ru
+full:code-push-api.samokat.ru
 
 
 # Купер
@@ -122,9 +126,9 @@ full:auto.ru
 
 # Lamoda
 full:lamoda.ru
-www.lamoda.ru
+full:www.lamoda.ru
 
-a.lmcdn.ru
+full:a.lmcdn.ru
 
 
 # ЦУМ
@@ -134,35 +138,35 @@ full:tsum.ru
 
 # Лэтуаль (частично)
 full:letu.ru
-www.letu.ru
+full:www.letu.ru
 full:i.letu.ru
 
 
 # Циан (частично)
-images.cdn-cian.ru
-static.cdn-cian.ru
+full:images.cdn-cian.ru
+full:static.cdn-cian.ru
 
 
 # Золотое Яблоко (частично)
 full:goldapple.ru
-vcdn.goldapple.ru
-mcdn.goldapple.ru
+full:vcdn.goldapple.ru
+full:mcdn.goldapple.ru
 
 
 # Sunlight (частично)
-g0.sunlight.net
-g1.sunlight.net
-g2.sunlight.net
-g3.sunlight.net
-g4.sunlight.net
-g5.sunlight.net
-g6.sunlight.net
-g7.sunlight.net
-g8.sunlight.net
-g9.sunlight.net
+full:g0.sunlight.net
+full:g1.sunlight.net
+full:g2.sunlight.net
+full:g3.sunlight.net
+full:g4.sunlight.net
+full:g5.sunlight.net
+full:g6.sunlight.net
+full:g7.sunlight.net
+full:g8.sunlight.net
+full:g9.sunlight.net
 
 
 # DNS
 full:dns-shop.ru
-www.dns-shop.ru
-c.dns-shop.ru
+full:www.dns-shop.ru
+full:c.dns-shop.ru

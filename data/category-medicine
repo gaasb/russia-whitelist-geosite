@@ -12,7 +12,7 @@ full:emias.info
 
 # Аптека.ru
 full:apteka.ru
-static.apteka.ru
+full:static.apteka.ru
 
 
 # Еаптека
@@ -24,7 +24,7 @@ full:prodoctorov.ru
 
 
 # Медточка (частично)
-app.medtochka.ru
-app-mobile.medtochka.ru
-info-mobile.medtochka.ru
-profile-mobile.medtochka.ru
+full:app.medtochka.ru
+full:app-mobile.medtochka.ru
+full:info-mobile.medtochka.ru
+full:profile-mobile.medtochka.ru

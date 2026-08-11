@@ -10,7 +10,7 @@ full:set.ki
 
 # Почта России
 full:pochta.ru
-www.pochta.ru
+full:www.pochta.ru
 static.pochta.ru
 chat-ct.pochta.ru
 
@@ -84,7 +84,7 @@ full:dnevnik.ru
 
 # Gismeteo (частично)
 full:gismeteo.ru
-www.gismeteo.ru
+full:www.gismeteo.ru
 st.gismeteo.st
 # gismeteo.net и его поддомены не в белых списках
 
@@ -116,10 +116,11 @@ full:zvuk.com
 
 # Газпром ИД
 full:gid.ru
-auth.gid.ru
-
+full:auth.gid.ru
+full:app.gid.ru
+full:static-sso.gid.ru
 
 # CDNvideo
-trbcdn.net
-selcdn.net
-twcstorage.ru
+domaim:trbcdn.net
+domain:selcdn.net
+domain:twcstorage.ru

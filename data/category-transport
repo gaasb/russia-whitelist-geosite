@@ -14,7 +14,7 @@ full:taximaxim.ru
 
 # РЖД
 full:rzd.ru
-www.rzd.ru
+full:www.rzd.ru
 ticket.rzd.ru
 
 
@@ -24,14 +24,14 @@ full:grandtrain.ru
 
 # Туту
 full:tutu.ru
-www.tutu.ru
-hotel.tutu.ru
-frontlog.tutu.ru
-main-page.tutu.ru
-ux.tutu.ru
-chat-widget-iframe.tutu.ru
+full:www.tutu.ru
+full:hotel.tutu.ru
+full:frontlog.tutu.ru
+full:main-page.tutu.ru
+full:ux.tutu.ru
+full:chat-widget-iframe.tutu.ru
 
-cdn1.tu-tu.ru
+full:cdn1.tu-tu.ru
 
 
 # Деловые линии
@@ -52,11 +52,11 @@ full:flypobeda.ru
 
 # S7
 full:s7.ru
-www.s7.ru
-chat.s7.ru
-portal.s7cdn.online
-public.s7cdn.online
-s3-portal.s7cdn.online
+full:www.s7.ru
+full:chat.s7.ru
+full:portal.s7cdn.online
+full:public.s7cdn.online
+full:s3-portal.s7cdn.online
 
 
 # Делимобиль
@@ -64,9 +64,9 @@ full:delimobil.ru
 
 
 # TaxSee
-taxsee.com
-taxsee.ru
-taxsee.pro
+full:taxsee.com
+full:taxsee.ru
+full:taxsee.pro
 
 
 # БелкаКар
@@ -78,8 +78,8 @@ full:xn--d1abb2a.xn--p1ai # едем.рф
 
 
 # Парковки Санкт-Петербурга
-client.crrpay.ru
-parking.spb.ru
+full:client.crrpay.ru
+full:parking.spb.ru
 
 
 # Whoosh
