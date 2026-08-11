@@ -2,9 +2,11 @@
 dns.google
 dns.google.com
 
+
 # Cloudflare
 cloudflare-dns.com
 one.one.one.one
+
 
 # Apple
 dns.apple.com
@@ -13,6 +15,7 @@ mask.icloud.com
 mask-h2.icloud.com
 mask-canary.icloud.com
 
+
 # Alibaba
 alidns.com
 aliyunhttpdns.com
@@ -20,23 +23,29 @@ httpdns.alicdn.com
 httpdns-api.aliyuncs.com
 resolvers-cn.httpdns.aliyuncs.com
 
+
 # Tencent
 doh.pub
+
 
 # Baidu
 httpdns.baidu.com
 httpdns.baidubce.com
+
 
 # Huawei
 httpdns.huaweicloud.com
 httpdns.platform.dbankcloud.cn
 httpdns.platform.dbankcloud.com
 
+
 # ByteDance
 httpdns.volcengineapi.com
 
+
 # Xiaomi
 httpdns.browser.miui.com
+
 
 # Oppo
 httpdns.ocloud.oppomobile.com

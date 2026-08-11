@@ -5,37 +5,48 @@
 # nspk.com Не в БС МегаФона
 # cbrpay.ru
 
+
 # Банк России
 full:cbr.ru
+
 
 # Альфа-Банк
 full:alfabank.ru
 full:netmonet.co
 
+
 # ВТБ
 full:vtb.ru
+
 
 # ПСБ
 full:psbank.ru
 
+
 # Газпромбанк
 full:gazprombank.ru
+
 
 # ОТП Банк
 full:otpbank.ru
 
+
 # Модульбанк
 full:modulbank.ru
+
 
 # ЮMoney (частично)
 full:yoomoney.ru
 static.yoomoney.ru
 
+
 # Московская биржа
 full:moex.com
 
+
 # Банки.ру
 full:banki.ru
+
 
 # Кредистория
 full:credistory.ru

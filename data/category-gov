@@ -1,8 +1,10 @@
 # Правительство России
 # government.ru # TODO: check
 
+
 # Центральная избирательная комиссия Российской Федерации
 # cikrf.ru # TODO: check
+
 
 # Госуслуги
 full:gosuslugi.ru
@@ -11,16 +13,20 @@ full:mos.ru
 full:ebs.ru
 full:gu-st.ru
 
+
 # МВД
 full:xn--b1aew.xn--p1ai # мвд.рф
 full:mvd.ru
 
+
 # ФНС
 full:nalog.ru
+
 
 # Единая Россия
 full:er.ru
 cdn.er.ru
+
 
 # Яблоко
 full:yabloko.ru

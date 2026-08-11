@@ -1,104 +1,138 @@
 # Известия
 full:iz.ru
 
+
 # ТАСС
 full:tass.ru
 full:tass.com
 
+
 # Газета.ru
 full:gazeta.ru
+
 
 # Лента.ру
 full:lenta.ru
 
+
 # РБК
 full:rbc.ru
+
 
 # РИА Новости
 full:ria.ru
 
+
 # Рамблер
 full:rambler.ru
+
 
 # Аргументы и Факты
 full:aif.ru
 
+
 # Российская газета
 full:rg.ru
+
 
 # Ведомости
 full:vedomosti.ru
 
+
 # Московский комсомолец
 full:mk.ru
+
 
 # Коммерсант
 full:kommersant.ru
 
+
 # Комсомольская правда
 full:kp.ru
+
 
 # RT
 full:rt.com
 
+
 # Sport24
 full:sport24.ru
+
 
 # Первый канал
 full:1tv.ru
 
+
 # НТВ
 full:ntv.ru
+
 
 # ТНТ
 full:tnt-online.ru
 
+
 # СТС
 full:ctc.ru
+
 
 # Пятый канал
 full:5-tv.ru
 
+
 # ТВ Центр
 full:tvc.ru
+
 
 # ТВ3
 full:tv3.ru
 
+
 # Матч ТВ
 full:matchtv.ru
+
 
 # Спас
 full:spastv.ru
 
+
 # ОТР
 full:otr-online.ru
+
 
 # Пятница
 full:friday.ru
 
+
 # Домашний
 full:domashniy.ru
+
 
 # Муз-ТВ
 full:muz-tv.ru
 
+
 # Мир
 full:mirtv.ru
+
 
 # 360
 full:360tv.ru
 
+
 # Дума ТВ
 full:dumatv.ru
+
 
 # Вместе-РФ
 full:vmeste-rf.tv
 
+
 # ВГТРК / Смотрим
 full:smotrim.ru
 
+
 # Ура.ру
 full:ura.ru
+
 full:ura.news
 cdn-asset.ura.news

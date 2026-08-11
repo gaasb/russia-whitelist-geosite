@@ -2,112 +2,148 @@
 full:avito.ru
 full:avito.st
 
+
 # Юла
 full:youla.ru
 full:youla.io
 
+
 # Магнит
 full:magnit.ru
 
+
 # Дикси
 full:dixy.ru
+
 
 # Азбука вкуса
 full:av.ru
 full:azbukavkusa.ru
 
+
 # ВкусВилл
 full:vkusvill.ru
+
 
 # Ашан
 full:auchan.ru
 
+
 # SPAR
 full:myspar.ru
 
+
 # Metro
 full:metro-cc.ru
+
 
 # Лента
 full:lenta.com
 full:lenta.tech
 
+
 # Fix Price
 full:fix-price.com
 
+
 # М.Видео
 full:mvideo.ru
+
 
 # Sokolov
 full:sokolov.ru
 static-catalog.sokolov.ru
 
+
 # О'Кей
 full:okmarket.ru
+
 
 # Красное&Белое
 full:krasnoeibeloe.ru
 
+
 # Достависта
 full:dostavista.ru
 
+
 # Додо Пицца
 full:dodopizza.ru
+
 full:dodopizza.com
 globalapi.dodopizza.com
+
 cdn.dodostatic.net
 media.dodostatic.net
 
 # dodois.io
 
+
 # Самокат
 full:samokat.ru
+
 
 # Купер
 full:kuper.ru
 full:sbermarket.ru
 
+
 # Мегамаркет
 full:megamarket.ru
+
 
 # Петрович
 full:petrovich.ru
 
+
 # Детский мир
 full:detmir.ru
+
 
 # Вкусно и точка
 full:vkusnoitochka.ru
 
+
 # Бургер Кинг
 full:burgerkingrus.ru
+
 
 # Rostic's
 full:rostics.ru
 
+
 # Авто.ру
 full:auto.ru
 
+
 # Lamoda
 full:lamoda.ru
-lmcdn.ru
+www.lamoda.ru
+
+a.lmcdn.ru
+
 
 # ЦУМ
 full:tsum.com
 full:tsum.ru
+
 
 # Лэтуаль (частично)
 full:letu.ru
 www.letu.ru
 full:i.letu.ru
 
+
 # Циан (частично)
 images.cdn-cian.ru
+static.cdn-cian.ru
+
 
 # Золотое Яблоко (частично)
 full:goldapple.ru
 vcdn.goldapple.ru
 mcdn.goldapple.ru
+
 
 # Sunlight (частично)
 g0.sunlight.net
@@ -120,6 +156,7 @@ g6.sunlight.net
 g7.sunlight.net
 g8.sunlight.net
 g9.sunlight.net
+
 
 # DNS
 full:dns-shop.ru
