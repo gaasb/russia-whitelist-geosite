@@ -1,55 +1,60 @@
 # HeadHunter
-hh.ru
-hhid.ru
-hhcdn.ru
-setka.ru
-set.ki
+domain:hh.ru
+# hhid.ru
+# hhcdn.ru
+
+full:setka.ru
+
+full:set.ki
 
 
 # Почта России
-pochta.ru
+full:pochta.ru
+www.pochta.ru
+static.pochta.ru
+chat-ct.pochta.ru
 
 
 # СДЭК
-cdek.ru
+full:cdek.ru
 
 
 # KazanExpress
-kazanexpress.ru
+full:kazanexpress.ru
 
 
 # Магнит Маркет
-mm.ru
+full:mm.ru
 
 
 # Boxberry
-boxberry.ru
+full:boxberry.ru
 
 
 # Добро.рф
-dobro.ru
-xn--90af4abj.xn--p1ai # добро.рф
+full:dobro.ru
+full:xn--90af4abj.xn--p1ai # добро.рф
 
 
 # Знание
-znanierussia.ru
+full:znanierussia.ru
 
 
 # ЭРА-ГЛОНАСС
-eraglonass.ru
+full:eraglonass.ru
 
 
 # HRlink
-hr-link.ru
+full:hr-link.ru
 
 
 # КХЛ
-khl.ru
+full:khl.ru
 
 
 # Честный знак
 full:crpt.ru
-xn--80ajghhoc2aj1c8b.xn--p1ai # честныйзнак.рф
+full:xn--80ajghhoc2aj1c8b.xn--p1ai # честныйзнак.рф
 
 
 # Пикабу
@@ -70,11 +75,11 @@ domain:sk.ru
 
 
 # EnerGO
-energo.app
+full:energo.app
 
 
 # Дневник.ру
-dnevnik.ru
+full:dnevnik.ru
 
 
 # Gismeteo (частично)
@@ -85,20 +90,20 @@ st.gismeteo.st
 
 
 # Движение первых
-xn--90acagbhgpca7c8c7f.xn--p1ai # будьвдвижении.рф
-pervye.ru
+full:xn--90acagbhgpca7c8c7f.xn--p1ai # будьвдвижении.рф
+full:pervye.ru
 
 
 # Вебиум
-webium.ru
+full:webium.ru
 
 
 # Фоксфорд
-foxford.ru
+full:foxford.ru
 
 
 # Суточно.ру
-sutochno.ru
+full:sutochno.ru
 
 
 # Timeweb (частично)
@@ -106,7 +111,12 @@ full:timeweb.cloud
 
 
 # Звук
-zvuk.com
+full:zvuk.com
+
+
+# Газпром ИД
+full:gid.ru
+auth.gid.ru
 
 
 # CDNvideo
