@@ -1,41 +1,41 @@
 # Билайн
-beeline.ru
+domain:beeline.ru
 
 # МегаФон
-megafon.ru
+domain:megafon.ru
 
 # Yota
-yota.ru
+domain:yota.ru
 
 # МТС
-mts.ru
-mtsbank.ru
-mts-link.ru
-mymts.ru
-kion.ru
-ticketland.ru
-urent.ru
+domain:mts.ru
+full:mtsbank.ru
+full:mts-link.ru
+full:mymts.ru
+full:kion.ru
+full:ticketland.ru
+full:urent.ru
 
 # Ростелеком
-rt.ru
+domain:rt.ru
 
 # t2
-t2.ru
-tele2.ru
+domain:t2.ru
+domain:tele2.ru
 
 # Мотив
-motiv.me
-motivtelecom.ru
+full:motiv.me
+full:motivtelecom.ru
 
 # СберМобайл
-sbermobile.ru
+full:sbermobile.ru
 
 # Эр-Телеком (Дом.ру)
-dom.ru
-ertelecom.ru
+domain:dom.ru
+domain:ertelecom.ru
 
 # ВТБ Мобайл
-vtbmobile.ru
+full:vtbmobile.ru
 
 # Next Mobile
-nextmobile.ru
+full:nextmobile.ru

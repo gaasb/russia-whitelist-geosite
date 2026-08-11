@@ -1,99 +1,104 @@
 # Известия
-iz.ru
+full:iz.ru
 
 # ТАСС
-tass.ru
-tass.com
+full:tass.ru
+full:tass.com
 
 # Газета.ru
-gazeta.ru
+full:gazeta.ru
 
 # Лента.ру
-lenta.ru
+full:lenta.ru
 
 # РБК
-rbc.ru
+full:rbc.ru
 
 # РИА Новости
-ria.ru
+full:ria.ru
 
 # Рамблер
-rambler.ru
+full:rambler.ru
 
 # Аргументы и Факты
-aif.ru
+full:aif.ru
 
 # Российская газета
-rg.ru
+full:rg.ru
 
 # Ведомости
-vedomosti.ru
+full:vedomosti.ru
 
 # Московский комсомолец
-mk.ru
+full:mk.ru
 
 # Коммерсант
-kommersant.ru
+full:kommersant.ru
 
 # Комсомольская правда
-kp.ru
+full:kp.ru
 
 # RT
-rt.com
+full:rt.com
 
 # Sport24
-sport24.ru
+full:sport24.ru
 
 # Первый канал
-1tv.ru
+full:1tv.ru
 
 # НТВ
-ntv.ru
+full:ntv.ru
 
 # ТНТ
-tnt-online.ru
+full:tnt-online.ru
 
 # СТС
-ctc.ru
+full:ctc.ru
 
 # Пятый канал
-5-tv.ru
+full:5-tv.ru
 
 # ТВ Центр
-tvc.ru
+full:tvc.ru
 
 # ТВ3
-tv3.ru
+full:tv3.ru
 
 # Матч ТВ
-matchtv.ru
+full:matchtv.ru
 
 # Спас
-spastv.ru
+full:spastv.ru
 
 # ОТР
-otr-online.ru
+full:otr-online.ru
 
 # Пятница
-friday.ru
+full:friday.ru
 
 # Домашний
-domashniy.ru
+full:domashniy.ru
 
 # Муз-ТВ
-muz-tv.ru
+full:muz-tv.ru
 
 # Мир
-mirtv.ru
+full:mirtv.ru
 
 # 360
-360tv.ru
+full:360tv.ru
 
 # Дума ТВ
-dumatv.ru
+full:dumatv.ru
 
 # Вместе-РФ
-vmeste-rf.tv
+full:vmeste-rf.tv
 
 # ВГТРК / Смотрим
-smotrim.ru
+full:smotrim.ru
+
+# Ура.ру
+full:ura.ru
+full:ura.news
+cdn-asset.ura.news

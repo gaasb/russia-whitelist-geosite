@@ -37,20 +37,20 @@ hr-link.ru
 khl.ru
 
 # Честный знак
-crpt.ru
+full:crpt.ru
 xn--80ajghhoc2aj1c8b.xn--p1ai # честныйзнак.рф
 
 # Пикабу
-pikabu.ru
+full:pikabu.ru
 
 # 1С
-1c.ru
+full:1c.ru
 
 # СКБ Контур
-kontur.ru
+full:kontur.ru
 
 # Инновационный центр «Сколково»
-sk.ru
+domain:sk.ru
 
 # EnerGO
 energo.app
@@ -60,8 +60,8 @@ dnevnik.ru
 
 # Gismeteo (частично)
 full:gismeteo.ru
-full:www.gismeteo.ru
-gismeteo.st
+www.gismeteo.ru
+st.gismeteo.st
 # gismeteo.net и его поддомены не в белых списках
 
 # Движение первых
@@ -87,3 +87,6 @@ zvuk.com
 trbcdn.net
 selcdn.net
 twcstorage.ru
+
+#
+bitrix.info

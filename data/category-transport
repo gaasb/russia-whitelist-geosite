@@ -1,39 +1,49 @@
 # 2ГИС
-2gis.ru
-2gis.com
-otello.ru
+domain:2gis.ru
+domain:2gis.com
+
+# Отелло
+full:otello.ru
+assets.otello.ru
 
 # Максим
-taximaxim.ru
+full:taximaxim.ru
 
 # РЖД
-rzd.ru
+full:rzd.ru
+www.rzd.ru
+ticket.rzd.ru
 
 # Гранд Сервис Экспресс
-grandtrain.ru
+full:grandtrain.ru
 
 # Туту
-tutu.ru
-tu-tu.ru
+full:tutu.ru
+www.tutu.ru
+# tu-tu.ru # TODO: check subdomains
 
 # Деловые линии
-dellin.ru
+full:dellin.ru
 
 # Ситидрайв
-citydrive.ru
+full:citydrive.ru
 
 # Аэрофлот
-aeroflot.ru
+full:aeroflot.ru
 
 # Победа
-flypobeda.ru
+full:flypobeda.ru
 
 # S7
-s7.ru
-s7cdn.online
+full:s7.ru
+www.s7.ru
+chat.s7.ru
+portal.s7cdn.online
+public.s7cdn.online
+s3-portal.s7cdn.online
 
 # Делимобиль
-delimobil.ru
+full:delimobil.ru
 
 # TaxSee
 taxsee.com
@@ -41,14 +51,14 @@ taxsee.ru
 taxsee.pro
 
 # БелкаКар
-belkacar.ru
+full:belkacar.ru
 
 # Едем.рф
-xn--d1abb2a.xn--p1ai # едем.рф
+full:xn--d1abb2a.xn--p1ai # едем.рф
 
 # Парковки Санкт-Петербурга
+client.crrpay.ru
 parking.spb.ru
-crrpay.ru
 
 # Whoosh
-whoosh.bike
+full:whoosh.bike

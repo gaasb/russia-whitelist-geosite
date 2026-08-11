@@ -1,17 +1,17 @@
-# Rutube
-rutube.ru
-rtbcdn.ru
-rutubelist.ru
+# Rutube #
+full:rutube.ru
+# rtbcdn.ru # TODO: check subdomains
+# rutubelist.ru # TODO: check subdomains
 
 # Okko
-okko.tv
-okko.ru
+full:okko.tv
+full:okko.ru
 
 # Иви
-ivi.ru
+full:ivi.ru
 
 # PREMIER
-premier.one
+full:premier.one
 
 # Wink
-wink.ru
+full:wink.ru

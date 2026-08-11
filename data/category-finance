@@ -1,41 +1,41 @@
-# Национальная система платёжных карт
-mironline.ru
-mirconnect.ru
-nspk.ru
-nspk.com
-cbrpay.ru
+# Национальная система платёжных карт # TODO: check
+# mironline.ru
+# mirconnect.ru
+# nspk.ru # Не в БС МегаФона
+# nspk.com Не в БС МегаФона
+# cbrpay.ru
 
 # Банк России
-cbr.ru
+full:cbr.ru
 
 # Альфа-Банк
-alfabank.ru
-netmonet.co
+full:alfabank.ru
+full:netmonet.co
 
 # ВТБ
-vtb.ru
+full:vtb.ru
 
 # ПСБ
-psbank.ru
+full:psbank.ru
 
 # Газпромбанк
-gazprombank.ru
+full:gazprombank.ru
 
 # ОТП Банк
-otpbank.ru
+full:otpbank.ru
 
 # Модульбанк
-modulbank.ru
+full:modulbank.ru
 
 # ЮMoney (частично)
 full:yoomoney.ru
 static.yoomoney.ru
 
 # Московская биржа
-moex.com
+full:moex.com
 
 # Банки.ру
-banki.ru
+full:banki.ru
 
 # Кредистория
-credistory.ru
+full:credistory.ru

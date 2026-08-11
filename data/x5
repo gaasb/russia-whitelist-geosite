@@ -1,21 +1,22 @@
 # X5 Group
-x5.ru
-x5media.ru
-x5static.net
-x5id.ru
-x5club.ru
+full:x5.ru
+full:x5media.ru
+full:x5static.net
+full:x5id.ru
+full:x5club.ru
 
 # Апельсин
-myapelsin.ru
+full:myapelsin.ru
 
 # Пятёрочка
-5ka.ru
+full:5ka.ru
 
 # Перекрёсток
-perekrestok.ru
+full:perekrestok.ru
+www.perekrestok.ru
 
 # Впрок
-vprok.ru
+full:vprok.ru
 
 # Чижик
-chizhik.club
+full:chizhik.club

@@ -1,17 +1,24 @@
 # Медси
-medsi.ru
+full:medsi.ru
 
 # Мать и дитя
-mamadeti.ru
+full:mamadeti.ru
 
 # ЕМИАС
-emias.info
+full:emias.info
 
 # Аптека.ru
-apteka.ru
+full:apteka.ru
+static.apteka.ru
 
 # Еаптека
-eapteka.ru
+full:eapteka.ru
 
 # ПроДокторов
-prodoctorov.ru
+full:prodoctorov.ru
+
+# Медточка (частично)
+app.medtochka.ru
+app-mobile.medtochka.ru
+info-mobile.medtochka.ru
+profile-mobile.medtochka.ru

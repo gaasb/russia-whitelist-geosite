@@ -1,101 +1,101 @@
 # Авито
-avito.ru
-avito.st
+full:avito.ru
+full:avito.st
 
 # Юла
-youla.ru
-youla.io
+full:youla.ru
+full:youla.io
 
 # Магнит
-magnit.ru
+full:magnit.ru
 
 # Дикси
-dixy.ru
+full:dixy.ru
 
 # Азбука вкуса
-av.ru
-azbukavkusa.ru
+full:av.ru
+full:azbukavkusa.ru
 
 # ВкусВилл
-vkusvill.ru
+full:vkusvill.ru
 
 # Ашан
-auchan.ru
+full:auchan.ru
 
 # SPAR
-myspar.ru
+full:myspar.ru
 
 # Metro
-metro-cc.ru
+full:metro-cc.ru
 
 # Лента
-lenta.com
-lenta.tech
+full:lenta.com
+full:lenta.tech
 
 # Fix Price
-fix-price.com
+full:fix-price.com
 
 # М.Видео
-mvideo.ru
+full:mvideo.ru
 
 # Sokolov
-sokolov.ru
+full:sokolov.ru
+static-catalog.sokolov.ru
 
 # О'Кей
-okmarket.ru
+full:okmarket.ru
 
 # Красное&Белое
-krasnoeibeloe.ru
+full:krasnoeibeloe.ru
 
 # Достависта
-dostavista.ru
+full:dostavista.ru
 
 # Додо Пицца
-dodopizza.ru
-dodopizza.com
-dodostatic.net
-dodois.io
+full:dodopizza.ru
+full:dodopizza.com
+# dodostatic.net
+# dodois.io
 
 # Самокат
-samokat.ru
+full:samokat.ru
 
 # Купер
-kuper.ru
-sbermarket.ru
+full:kuper.ru
+full:sbermarket.ru
 
 # Мегамаркет
-megamarket.ru
+full:megamarket.ru
 
 # Петрович
-petrovich.ru
+full:petrovich.ru
 
 # Детский мир
-detmir.ru
+full:detmir.ru
 
 # Вкусно и точка
-vkusnoitochka.ru
+full:vkusnoitochka.ru
 
 # Бургер Кинг
-burgerking.ru
-burgerkingrus.ru
+full:burgerkingrus.ru
 
 # Rostic's
-rostics.ru
+full:rostics.ru
 
 # Авто.ру
-auto.ru
+full:auto.ru
 
 # Lamoda
-lamoda.ru
+full:lamoda.ru
 lmcdn.ru
 
 # ЦУМ
-tsum.com
-tsum.ru
+full:tsum.com
+full:tsum.ru
 
 # Лэтуаль (частично)
 full:letu.ru
-full:www.letu.ru
+www.letu.ru
 full:i.letu.ru
 
 # Циан (частично)
@@ -120,5 +120,5 @@ g9.sunlight.net
 
 # DNS
 full:dns-shop.ru
-full:www.dns-shop.ru
-full:c.dns-shop.ru
+www.dns-shop.ru
+c.dns-shop.ru
