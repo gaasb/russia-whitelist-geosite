@@ -182,8 +182,12 @@ full:static.cdn-cian.ru
 
 # Золотое Яблоко (частично)
 full:goldapple.ru
-full:vcdn.goldapple.ru
+full:api-n.goldapple.ru
+full:ccdn.goldapple.ru
 full:mcdn.goldapple.ru
+full:pcdn.goldapple.ru
+full:vcdn.goldapple.ru
+
 
 
 # Sunlight (частично)
