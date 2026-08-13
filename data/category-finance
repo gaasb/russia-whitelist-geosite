@@ -43,6 +43,9 @@ full:gazprombank.ru
 
 # ОТП Банк
 full:otpbank.ru
+full:www.otpbank.ru
+full:dc.otpbank.ru
+# Другие поддомены otpbank.ru не в белых списках
 
 
 # Модульбанк
@@ -64,3 +67,5 @@ full:banki.ru
 
 # Кредистория
 full:credistory.ru
+full:esia.credistory.ru
+full:cdn.credistory.ru

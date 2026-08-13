@@ -9,6 +9,10 @@ on:
       - ".github/workflows/build.yaml"
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 env:
   SINGBOX_VERSION: 1.13.16
   MIHOMO_VERSION: v1.19.29
@@ -16,9 +20,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    concurrency:
-      group: build-${{ github.ref }}
-      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
 
@@ -75,10 +76,32 @@ jobs:
           sha256sum geosite.dat | tee geosite.dat.sha256sum
           sha256sum geosite.dat | cut -d' ' -f1 > geosite.dat.sha256
 
+      - name: Changelog
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.run_number }}
+        run: |
+          set -euo pipefail
+          prev=$(gh release view --json tagName --jq .tagName 2>/dev/null || true)
+          if [ -n "$prev" ]; then
+            git fetch --no-tags --depth=1 origin "refs/tags/$prev:refs/tags/$prev"
+            base="$prev"
+          else
+            base=$(git hash-object -t tree /dev/null)
+          fi
+          python3 .github/scripts/changes.py changelog "$base" > notes.md
+          if [ -n "$prev" ]; then
+            printf '\n[Полный diff](https://github.com/%s/compare/%s...%s)\n' "$GH_REPO" "$prev" "$TAG" >> notes.md
+          fi
+          cat notes.md
+
       - uses: actions/upload-artifact@v4
         with:
           name: geosite
-          path: output/
+          path: |
+            output/
+            notes.md
           retention-days: 1
           if-no-files-found: error
 
@@ -87,9 +110,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency:
-      group: publish
-      cancel-in-progress: false
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
@@ -98,7 +118,6 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: geosite
-          path: output
 
       - name: Create draft release
         uses: softprops/action-gh-release@v3.0.2
@@ -106,6 +125,7 @@ jobs:
           tag_name: ${{ github.run_number }}
           name: ${{ github.run_number }}
           draft: true
+          body_path: notes.md
           files: output/*
 
       - name: Verify assets

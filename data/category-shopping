@@ -1,5 +1,9 @@
 # Авито
 full:avito.ru
+full:www.avito.ru
+full:app.avito.ru
+full:static.avito.ru
+
 full:avito.st
 
 
@@ -65,6 +69,7 @@ full:krasnoeibeloe.ru
 
 # Достависта
 full:dostavista.ru
+full:robot.dostavista.ru
 
 
 # Додо Пицца
@@ -94,10 +99,14 @@ full:health.samokat.ru
 full:sting.samokat.ru
 full:error-tracking.samokat.ru
 full:code-push-api.samokat.ru
+full:damcdn.samokat.ru
 
 
 # Купер
 full:kuper.ru
+full:ssp-gw.kuper.ru
+full:imgproxy.kuper.ru
+
 full:sbermarket.ru
 
 
@@ -116,6 +125,7 @@ full:detmir.ru
 # Вкусно и точка
 full:vkusnoitochka.ru
 full:mobile-api.vkusnoitochka.ru
+full:ma-prod.cdn.vkusnoitochka.ru
 
 
 # Бургер Кинг

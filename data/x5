@@ -1,9 +1,10 @@
 # X5 Group
-full:x5.ru
-full:x5media.ru
-full:x5static.net
-full:x5id.ru
-full:x5club.ru
+# full:x5.ru
+# full:x5media.ru
+# full:x5static.net
+full:tsx.x5static.net
+# full:x5id.ru
+# full:x5club.ru
 
 
 # Апельсин
@@ -12,6 +13,7 @@ full:myapelsin.ru
 
 # Пятёрочка
 full:5ka.ru
+full:5d.5ka.ru
 
 
 # Перекрёсток

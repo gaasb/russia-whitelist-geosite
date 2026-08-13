@@ -8,10 +8,19 @@
 
 # Госуслуги
 full:gosuslugi.ru
+full:www.gosuslugi.ru
+full:lk.gosuslugi.ru
+full:esia.gosuslugi.ru
+full:elections.gosuslugi.ru
+full:sfd.gosuslugi.ru
+full:max.gosuslugi.ru
+# full:bot.gosuslugi.ru  # Недоступно на Т-Мобайле
+
+# full:gu-st.ru
+
 full:gov.ru
 full:mos.ru
 full:ebs.ru
-full:gu-st.ru
 
 
 # МВД

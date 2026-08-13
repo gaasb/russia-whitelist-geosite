@@ -127,13 +127,18 @@ full:app.gid.ru
 full:static-sso.gid.ru
 
 
+# UX Feedback (частично)
+full:uxfeedback.ru
+full:widget.uxfeedback.ru
+full:cdn.uxfeedback.ru
+full:cdn3.uxfeedback.ru
+
+
+# Умный дом, Уфанет
+full:dom.ufanet.ru
+
+
 # CDNvideo
 domain:trbcdn.net
 domain:selcdn.net
 domain:twcstorage.ru
-
-
-# UX Feedback (частично)
-full:uxfeedback.ru
-full:cdn.uxfeedback.ru
-full:cdn3.uxfeedback.ru
