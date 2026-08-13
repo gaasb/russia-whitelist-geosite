@@ -1,6 +1,7 @@
 # Авито
 full:avito.ru
 full:www.avito.ru
+full:m.avito.ru
 full:app.avito.ru
 full:static.avito.ru
 
@@ -15,6 +16,8 @@ full:60.img.avito.st
 full:70.img.avito.st
 full:80.img.avito.st
 full:90.img.avito.st
+
+full:avitostat.avito.com
 
 
 # Юла
@@ -94,6 +97,7 @@ full:media.dodostatic.net
 full:frontlogger.dodois.io
 full:mapi.dodois.io
 full:esapi.dodois.io
+full:pay.dodois.io
 
 full:dodopizza.threads.im
 
@@ -131,6 +135,8 @@ full:petrovich.ru
 # Детский мир
 full:detmir.ru
 full:www.detmir.ru
+
+full:go.detmir.st
 
 
 # Вкусно и точка
