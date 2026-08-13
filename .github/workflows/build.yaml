@@ -91,9 +91,6 @@ jobs:
             base=$(git hash-object -t tree /dev/null)
           fi
           python3 .github/scripts/changes.py changelog "$base" > notes.md
-          if [ -n "$prev" ]; then
-            printf '\n[Полный diff](https://github.com/%s/compare/%s...%s)\n' "$GH_REPO" "$prev" "$TAG" >> notes.md
-          fi
           cat notes.md
 
       - uses: actions/upload-artifact@v4

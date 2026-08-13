@@ -12,6 +12,8 @@ full:cbr.ru
 
 # Альфа-Банк
 full:alfabank.ru
+full:www.alfabank.ru
+
 full:netmonet.co
 
 
@@ -50,6 +52,10 @@ full:dc.otpbank.ru
 
 # Модульбанк
 full:modulbank.ru
+
+
+# Т-Банк (частично)
+full:certs.t-bank-app.ru
 
 
 # ЮMoney (частично)
