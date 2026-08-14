@@ -312,11 +312,13 @@ def subject(old_rev, new_rev):
             scopes.append(name)
         else:
             scopes.append(f"{name}/{','.join(sections)}")
+
     if len(scopes) > MAX_SCOPES:
         names = sorted(touched)
         head = ", ".join(names[:MAX_SCOPES])
         return f"{verb}: {head} +{len(names) - MAX_SCOPES}"
-    return f"{verb}: {' '.join(scopes)}"
+
+    return f"{verb}: {', '.join(scopes)}"
 
 
 def main():
