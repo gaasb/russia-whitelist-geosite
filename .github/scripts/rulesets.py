@@ -18,6 +18,7 @@ CATEGORIES = [
     "ozon",
     "vk",
     "wildberries",
+    "whitelist",
     "x5",
     "yandex",
     "private",
