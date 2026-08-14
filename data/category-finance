@@ -1,8 +1,9 @@
-# Национальная система платёжных карт # TODO: check
+# Национальная система платёжных карт
 full:nspk.ru
-# mironline.ru
+
+full:pay.mironline.ru
 # mirconnect.ru
-# nspk.com Не в БС МегаФона
+# nspk.com
 # cbrpay.ru
 
 
