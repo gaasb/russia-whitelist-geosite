@@ -21,6 +21,7 @@ CATEGORIES = [
     "x5",
     "yandex",
     "private",
+    "whitelist",
 ]
 
 
