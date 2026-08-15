@@ -46,7 +46,7 @@ jobs:
           mihomo -v
 
       - name: Build geosite.dat
-        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output -exportlists category-ads,category-finance,category-gov,category-media,category-medicine,category-public-dns,category-shopping,category-telecom,category-transport,category-video,other,ozon,vk,wildberries,x5,yandex,private
+        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output -exportlists category-ads,category-finance,category-gov,category-media,category-medicine,category-public-dns,category-shopping,category-telecom,category-transport,category-video,other,ozon,vk,wildberries,x5,yandex,private,whitelist
 
       - name: Sanity check
         working-directory: output
